@@ -47,8 +47,30 @@ export const CHECKS = [
   { id: "etl", label: "Jobs / ETL fallidos", severity: "critical" as const },
 ] as const;
 
+export const DEPLOYMENT = {
+  eyebrow: "Demo vs servicio real",
+  title: "Cloud, on‑prem o híbrido — según tu empresa",
+  intro:
+    "Lo que ves online es una demo en la nube con datos de ejemplo. En un piloto trabajamos con tus fuentes reales en solo lectura.",
+  bullets: [
+    {
+      label: "Tus datos",
+      body: "PostgreSQL, SQL Server, Excel/ERP — en la nube o en servidores propios.",
+    },
+    {
+      label: "Acceso",
+      body: "Solo lectura; no modificamos producción.",
+    },
+    {
+      label: "DataPulse",
+      body: "Piloto y monitor hosteados por nosotros por defecto; si IT lo requiere, evaluamos on‑prem o híbrido (chequeos adentro, vista ejecutiva afuera).",
+    },
+  ],
+  defaultNote: "Entrada estándar: panel en cloud + conexión segura en lectura.",
+} as const;
+
 export const FOR_WHO = [
-  "PyME con PostgreSQL, SQL Server o datos en la nube",
+  "PyME con PostgreSQL, SQL Server, on‑prem o en la nube",
   "Dependencia de Excel + sistema que no cierran",
   "Sin DBA interno o IT saturado",
   "Dueño o gerente que quiere visibilidad sin SQL",

@@ -7,6 +7,7 @@ import { LandingNav } from "@/components/landing/landing-nav";
 import { Reveal } from "@/components/landing/reveal";
 import {
   CHECKS,
+  DEPLOYMENT,
   FOR_WHO,
   NOT_FOR,
   PAINS,
@@ -241,6 +242,44 @@ export function LandingPage() {
                   ))}
                 </ul>
               </div>
+            </Reveal>
+          </div>
+        </section>
+
+        {/* Implementación */}
+        <section
+          id="implementacion"
+          className="border-t border-[color:color-mix(in_oklch,var(--border)_60%,transparent)]"
+        >
+          <div className="mx-auto max-w-6xl px-4 py-16 md:py-20">
+            <Reveal>
+              <p className="font-mono text-[10px] uppercase tracking-widest text-[var(--accent)]">
+                {DEPLOYMENT.eyebrow}
+              </p>
+              <h2 className="pretty mt-3 font-display text-2xl font-semibold tracking-tight md:text-3xl">
+                {DEPLOYMENT.title}
+              </h2>
+              <p className="pretty mt-4 max-w-2xl text-sm leading-relaxed text-[var(--muted)] md:text-base">
+                {DEPLOYMENT.intro}
+              </p>
+            </Reveal>
+            <Reveal stagger className="mt-10 grid gap-4 md:grid-cols-3">
+              {DEPLOYMENT.bullets.map((item) => (
+                <article
+                  key={item.label}
+                  className="surface-card p-5"
+                >
+                  <h3 className="font-mono text-[10px] uppercase tracking-wider text-[var(--accent)]">
+                    {item.label}
+                  </h3>
+                  <p className="pretty mt-3 text-sm leading-relaxed text-[color:color-mix(in_oklch,var(--fg)_80%,var(--muted))]">
+                    {item.body}
+                  </p>
+                </article>
+              ))}
+            </Reveal>
+            <Reveal className="mt-6">
+              <p className="font-mono text-[11px] text-[var(--muted)]">{DEPLOYMENT.defaultNote}</p>
             </Reveal>
           </div>
         </section>
