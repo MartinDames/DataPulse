@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+:root {
+  /* DataPulse · Observatorio editorial (Huashu) */
+  --bg: oklch(0.13 0.028 258);
+  --bg-elevated: oklch(0.16 0.024 258);
+  --fg: oklch(0.93 0.012 90);
+  --muted: oklch(0.58 0.02 258);
+  --card: oklch(0.155 0.022 258);
+  --border: oklch(0.26 0.02 258);
+  --ring: oklch(0.68 0.1 230);
+  --accent: oklch(0.68 0.12 230);
+  --accent-2: oklch(0.72 0.08 195);
+  --cream: oklch(0.94 0.02 90);
+  --status-critical: oklch(0.68 0.16 22);
+  --status-warn: oklch(0.78 0.13 72);
+  --status-ok: oklch(0.72 0.14 158);
+  --radius-xl: 18px;
+  --radius-lg: 12px;
+  --density: 1;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  text-rendering: geometricPrecision;
+  min-height: 100%;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 100% -10%, oklch(0.42 0.1 230 / 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 40% at -5% 100%, oklch(0.35 0.06 195 / 0.12), transparent 50%),
+    linear-gradient(oklch(0.28 0.02 258 / 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, oklch(0.28 0.02 258 / 0.35) 1px, transparent 1px);
+  background-size: auto, auto, 48px 48px, 48px 48px;
+}
+
+::selection {
+  background: color-mix(in oklch, var(--accent) 28%, transparent);
+}
+
+.pretty {
+  text-wrap: pretty;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* Surfaces */
+.surface-card {
+  border-radius: var(--radius-xl);
+  border: 1px solid color-mix(in oklch, var(--border) 80%, transparent);
+  background: color-mix(in oklch, var(--card) 92%, var(--bg-elevated));
+  box-shadow:
+    0 1px 0 color-mix(in oklch, white 4%, transparent) inset,
+    0 12px 40px oklch(0.05 0.02 258 / 0.35);
+}
+
+.surface-muted {
+  border-radius: var(--radius-lg);
+  border: 1px solid color-mix(in oklch, var(--border) 60%, transparent);
+  background: color-mix(in oklch, var(--bg-elevated) 70%, transparent);
+}
+
+.btn-ghost {
+  border-radius: 999px;
+  border: 1px solid color-mix(in oklch, var(--border) 90%, transparent);
+  background: color-mix(in oklch, var(--card) 50%, transparent);
+  color: var(--fg);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-ghost:hover {
+  background: color-mix(in oklch, var(--accent) 12%, var(--card));
+  border-color: color-mix(in oklch, var(--accent) 35%, var(--border));
+}
+
+.btn-primary {
+  border-radius: 999px;
+  background: linear-gradient(
+    135deg,
+    color-mix(in oklch, var(--accent) 90%, white),
+    color-mix(in oklch, var(--accent-2) 85%, var(--accent))
+  );
+  color: oklch(0.98 0.01 258);
+  font-weight: 500;
+  box-shadow: 0 4px 20px color-mix(in oklch, var(--accent) 35%, transparent);
+}
+
+html[data-density="compact"] {
+  --density: 0;
+}
+
+@media print {
+  aside,
+  header,
+  .no-print {
+    display: none !important;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
