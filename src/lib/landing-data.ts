@@ -23,7 +23,7 @@ export const SOLUTIONS = [
   {
     kicker: "01",
     title: "Score de salud",
-    body: "Indicador 0–100 con semáforo que entiende gerencia, no solo el equipo técnico.",
+    body: "Indicador 0-100 con semaforo para una rapida lectura, no solo del equipo técnico",
   },
   {
     kicker: "02",
@@ -33,7 +33,7 @@ export const SOLUTIONS = [
   {
     kicker: "03",
     title: "Informe ejecutivo",
-    body: "Resumen de una página, listo para imprimir o enviar al directorio.",
+    body: "Resumen de una pagina, listo para presentar",
   },
 ] as const;
 
