@@ -40,9 +40,9 @@
 
 ## Solución (qué hace DataPulse)
 
-- **Score de salud (0–100)** con semáforo que entiende gerencia, no solo IT.
+- **Score de salud (0–100)** — Indicador 0-100 con semaforo para una rapida lectura, no solo del equipo técnico.
 - **Alertas accionables** — severidad, impacto y recomendación en lenguaje claro.
-- **Informe ejecutivo** imprimible en 1 página para directorio o dueño.
+- **Informe ejecutivo** — Resumen de una pagina, listo para presentar.
 
 ---
 
@@ -113,11 +113,27 @@
 
 ---
 
-## Pendiente de configurar (antes de publicar)
+## Checklist de publicación
 
-- [ ] Formspree: reemplazar `TU_ID_FORMSPREE` en la landing
-- [ ] Calendly (opcional): URL de reunión de 15 min
-- [ ] Email de contacto visible
-- [ ] Dominio / deploy Vercel
-- [ ] Foto o avatar profesional (opcional)
+### Listo
+
+- [x] Formspree configurado (`mzdqnapy`)
+- [x] Calendly: `calendly.com/damessystems/30min`
+- [x] Email visible: `damessystems@gmail.com`
+- [x] Deploy Vercel: [data-health.vercel.app](https://data-health.vercel.app)
+- [x] Runbook piloto: `PILOTO-ONBOARDING.md`
+- [x] Guía publicación: `PUBLICAR.md`
+
+### Antes del primer post
+
+- [ ] Probar formulario (envío de prueba → mail recibido)
+- [ ] Screenshots para LinkedIn (Overview + Alertas)
+- [ ] LinkedIn personal actualizado (headline + link)
+- [ ] Post de lanzamiento publicado (texto en `PUBLICAR.md`)
+
+### Opcional / después
+
+- [ ] Dominio propio (ver `PUBLICAR.md` → Dominio)
+- [ ] Página LinkedIn DamesSystems
+- [ ] Foto o avatar profesional
 - [ ] Caso de estudio real (cuando haya piloto firmado)

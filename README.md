@@ -26,6 +26,7 @@ npm run dev
 - **Demo interactiva:** `http://localhost:3000/overview`
 
 Copy de la landing: `COPY.md`  
+Guía para publicar (LinkedIn, WhatsApp, dominio): `PUBLICAR.md`  
 Runbook cuando cierre un piloto: `PILOTO-ONBOARDING.md`  
 Notas por cliente: `clientes/` (plantilla en `clientes/_plantilla/`)
 
