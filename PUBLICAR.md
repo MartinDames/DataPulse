@@ -12,6 +12,7 @@
 - [ ] Sacar 2 screenshots: Overview (score crítico) + Alertas (lista con urgentes)
 - [ ] Actualizar LinkedIn personal: headline, acerca de, link a landing o Calendly
 - [ ] (Opcional) Crear página empresa DamesSystems en LinkedIn
+- [ ] Instagram: bio + link en bio + primer carrusel armado (ver abajo)
 
 ---
 
@@ -39,6 +40,7 @@
 | Mié | 5 DMs/mensajes LinkedIn personalizados | 1 charla agendada |
 | Jue | Follow-up a quien no respondió + 1 post dolor #2 | — |
 | Vie | 1 demo de 15 min (aunque sea con conocido) | Practicar guión README |
+| Sáb | Publicar carrusel Instagram #1 (lanzamiento) | 1 pieza visual live |
 
 **Meta semana 1:** 3 charlas agendadas, no volumen de visitas.
 
@@ -139,6 +141,188 @@ Estoy validando un servicio de salud de datos para PyMEs: detectar problemas ant
 
 Martín · DamesSystems
 ```
+
+---
+
+## Instagram
+
+### Perfil — bio sugerida
+
+```
+Salud de datos para PyMEs 📊
+Backups · Excel vs sistema · alertas claras
+DataPulse · DamesSystems
+👇 Demo + piloto 7 días
+```
+
+**Nombre visible:** `Martín Dames · DataPulse` o `DamesSystems`
+
+**Link en bio:** [data-health.vercel.app](https://data-health.vercel.app)  
+_(Si usás Linktree/Beacons: Demo + Calendly en dos botones)_
+
+**Categoría:** Empresa de software / Consultoría empresarial
+
+---
+
+### Cómo armar cada slide
+
+- Fondo oscuro (coincide con la demo) o screenshot recortado
+- Texto grande, máximo 2–3 líneas por slide
+- Tipografía legible en móvil (Canva, Figma o captura + texto nativo de IG)
+- Último slide siempre con CTA: *"Link en bio"*
+
+**Screenshots a usar:** `/overview`, `/alertas`, `/informe` desde [data-health.vercel.app](https://data-health.vercel.app)
+
+---
+
+### Carrusel #1 — Lanzamiento (publicar primero en IG)
+
+| Slide | Texto en la imagen | Visual sugerido |
+|-------|-------------------|-----------------|
+| **1** | Tus datos te están fallando en silencio. | Fondo oscuro, texto blanco |
+| **2** | Excel + ERP + una base que nadie mira hasta que explota. | Iconos o lista corta |
+| **3** | Facturación. Stock. Cierre de mes. Ahí aparece el error — no en IT. | Texto centrado |
+| **4** | DataPulse: score de salud, alertas claras, informe para gerencia. | Screenshot Overview |
+| **5** | Sin contratar un DBA full-time. | Screenshot Alertas (urgentes) |
+| **6** | Demo online con datos de ejemplo. Piloto real en 7 días — solo lectura. | Screenshot Informe |
+| **7** | ¿Te resuena? Link en bio → demo o charla 15 min | Logo DamesSystems + CTA |
+
+**Caption (copiar debajo del post):**
+
+```
+La mayoría de las PyMEs no explota la base de datos un martes cualquiera.
+
+El error aparece cuando facturación no cierra, el stock no coincide o el backup falló en silencio.
+
+Armé DataPulse (DamesSystems) para dar visibilidad antes del incidente:
+→ Score 0–100 con semáforo
+→ Alertas en lenguaje claro
+→ Informe listo para presentar
+
+Lo online es una demo. El piloto trabaja con tus datos en solo lectura.
+
+Link en bio 👆
+
+#pyme #emprendedores #datos #tecnologia #negocios #gestion #erp #excel #dba #damessystems #datapulse
+```
+
+---
+
+### Carrusel #2 — Excel vs sistema (3–5 días después)
+
+| Slide | Texto en la imagen |
+|-------|-------------------|
+| **1** | ¿Excel y el sistema cierran el mismo número? |
+| **2** | En muchas empresas la respuesta es: "depende del día". |
+| **3** | Eso no es culpa de una persona. Es falta de visibilidad. |
+| **4** | DataPulse detecta desvíos entre Excel y ERP antes del lunes. |
+| **5** | Demo gratis · link en bio |
+
+**Caption:**
+
+```
+Dos versiones de la verdad = reunión del lunes que no termina.
+
+DataPulse marca reconciliación Excel vs ERP como alerta urgente en la demo.
+
+¿Te pasó en los últimos 6 meses? Contame 👇
+
+Link en bio para ver la demo.
+
+#pyme #excel #erp #operaciones #datos #gestionempresarial
+```
+
+**Visual slide 4:** screenshot del check "Excel vs ERP" en `/alertas`.
+
+---
+
+### Carrusel #3 — Backups (semana 2)
+
+| Slide | Texto en la imagen |
+|-------|-------------------|
+| **1** | ¿Cuándo fue el último backup que realmente verificaste? |
+| **2** | No que "corrió". Que probaste restaurar. |
+| **3** | El check #1 en DataPulse es backup sin verificar. |
+| **4** | Porque cuando falla, duele más que cualquier consulta lenta. |
+| **5** | Piloto 7 días · diagnóstico + informe · link en bio |
+
+**Caption:**
+
+```
+Backups en piloto automático hasta el día que no hay restore.
+
+En la demo de DataPulse aparece como Urgente — y en la vida real también.
+
+Piloto de diagnóstico en 7 días. Sin compromiso mensual.
+
+#backups #seguridad #pyme #datos #infraestructura #it
+```
+
+---
+
+### Carrusel #4 — Para quién es / no es (opcional)
+
+| Slide | Texto en la imagen |
+|-------|-------------------|
+| **1** | ¿DataPulse es para tu empresa? |
+| **2** | **SÍ** si: PyME con base de datos o ERP + Excel |
+| **3** | **SÍ** si: nadie revisa backups o números que no cierran |
+| **4** | **NO** si: ya tenés Datadog y equipo SRE |
+| **5** | **NO** si: solo buscás una web o redes sociales |
+| **6** | ¿Dudas? Charla 15 min · link en bio |
+
+**Caption:**
+
+```
+No es para todos — y está bien.
+
+DataPulse es para dueños y gerentes que quieren visibilidad sin entrar al SQL.
+
+Demo con datos de ejemplo en el link de la bio.
+
+#pyme #b2b #software #consultoria
+```
+
+---
+
+### Reel / Story (15–30 seg) — guión simple
+
+Grabá pantalla recorriendo la demo. Narración sugerida:
+
+```
+[0–5 s]  "¿Cuándo fue la último vez que alguien revisó la salud de tu base de datos?"
+[5–12 s] Mostrar Overview — score bajo, semáforo crítico
+[12–20 s] Abrir Alertas — backup, duplicados, Excel vs ERP
+[20–28 s] "DataPulse. Demo en el link. Piloto en 7 días si encaja."
+[28–30 s] Texto en pantalla: "Link en bio"
+```
+
+**Texto sticker en Story:** `¿Te pasó?` → sticker encuesta Sí / No
+
+---
+
+### DM automático mental (cuando escriben por IG)
+
+```
+Hola! Gracias por escribir.
+
+La demo está acá: https://data-health.vercel.app/overview
+
+Si querés charla de 15 min: https://calendly.com/damessystems/30min
+
+¿Qué rubro es tu empresa? Así veo si encaja con el piloto.
+```
+
+---
+
+### Hashtags — set base (rotar, no usar los 30 siempre)
+
+```
+#pyme #negocios #emprendedores #gestion #operaciones #datos #tecnologia
+#erp #excel #dba #software #b2b #damessystems #datapulse #saluddedatos
+```
+
+Usá 8–12 por post. Mezclá 3–4 amplios (#negocios) + 4–5 nicho (#saluddedatos #pyme).
 
 ---
 

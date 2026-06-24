@@ -130,6 +130,7 @@
 - [ ] Screenshots para LinkedIn (Overview + Alertas)
 - [ ] LinkedIn personal actualizado (headline + link)
 - [ ] Post de lanzamiento publicado (texto en `PUBLICAR.md`)
+- [ ] Instagram: bio + link + carrusel #1 (slides en `PUBLICAR.md`)
 
 ### Opcional / después
 
