@@ -1,0 +1,5 @@
+# Carpetas de clientes reales y archivos sensibles — no subir al repo
+*
+!README.md
+!_plantilla/
+!_plantilla/**
