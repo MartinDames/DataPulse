@@ -25,7 +25,9 @@ npm run dev
 - **Landing comercial:** `http://localhost:3000`
 - **Demo interactiva:** `http://localhost:3000/overview`
 
-Copy de la landing: `COPY.md`
+Copy de la landing: `COPY.md`  
+Runbook cuando cierre un piloto: `PILOTO-ONBOARDING.md`  
+Notas por cliente: `clientes/` (plantilla en `clientes/_plantilla/`)
 
 ## Guión demo (15 min)
 
