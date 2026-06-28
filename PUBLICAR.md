@@ -9,7 +9,7 @@
 
 - [ ] Enviar solicitud de prueba en el formulario de la landing → confirmar mail en damessystems@gmail.com
 - [ ] Abrir Calendly y confirmar que el slot de 30 min está disponible
-- [ ] Sacar 2 screenshots: Overview (score crítico) + Alertas (lista con urgentes)
+- [ ] Screenshots para LinkedIn (Overview + Alertas) → `assets/publicacion/` *(ya generados; usar `02-overview-linkedin.png` y `03-alertas-linkedin.png`)*
 - [ ] Actualizar LinkedIn personal: headline, acerca de, link a landing o Calendly
 - [ ] (Opcional) Crear página empresa DamesSystems en LinkedIn
 - [ ] Instagram: bio + link en bio + primer carrusel armado (ver abajo)

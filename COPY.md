@@ -127,7 +127,7 @@
 ### Antes del primer post
 
 - [ ] Probar formulario (envío de prueba → mail recibido)
-- [ ] Screenshots para LinkedIn (Overview + Alertas)
+- [ ] Screenshots para LinkedIn (Overview + Alertas) → carpeta `assets/publicacion/` *(generados: `02-overview-linkedin.png`, `03-alertas-linkedin.png`)*
 - [ ] LinkedIn personal actualizado (headline + link)
 - [ ] Post de lanzamiento publicado (texto en `PUBLICAR.md`)
 - [ ] Instagram: bio + link + carrusel #1 (slides en `PUBLICAR.md`)
