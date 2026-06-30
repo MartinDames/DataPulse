@@ -279,6 +279,8 @@ Campos mínimos a personalizar:
 | `src/lib/demo-data.ts` | Ejemplo de checks completos |
 | `clientes/_plantilla/NOTAS.md` | Plantilla de seguimiento por cliente |
 | `clientes/README.md` | Cómo crear carpeta por cliente |
+| `ROADMAP-IA.md` | Evolución producto: IA, automatización, remediación |
+| `playbooks/` | Recetas operativas (alimentan fase 2+) |
 
 ---
 

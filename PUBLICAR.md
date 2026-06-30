@@ -372,7 +372,7 @@ Hoy: `https://data-health.vercel.app` — alcanza para empezar.
 2. En terminal, desde la carpeta del proyecto:
 
 ```bash
-cd "C:\Users\marti\OneDrive\Desktop\Emprender\Emprender\Dashboards\Prototipos\data-health"
+cd "C:\Users\marti\OneDrive\Desktop\Emprender\Emprender\Dashboards\_externos\datapulse"
 vercel domains add tudominio.com
 ```
 

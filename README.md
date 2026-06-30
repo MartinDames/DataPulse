@@ -17,7 +17,7 @@ Persistencia: `localStorage` (sin backend). Ideal para demos comerciales y perso
 ## Cómo correrlo
 
 ```bash
-cd "C:\Users\marti\OneDrive\Desktop\Emprender\Emprender\Dashboards\Prototipos\data-health"
+cd "C:\Users\marti\OneDrive\Desktop\Emprender\Emprender\Dashboards\_externos\datapulse"
 npm install
 npm run dev
 ```
@@ -28,6 +28,7 @@ npm run dev
 Copy de la landing: `COPY.md`  
 Guía para publicar (LinkedIn, WhatsApp, dominio): `PUBLICAR.md`  
 Runbook cuando cierre un piloto: `PILOTO-ONBOARDING.md`  
+Roadmap IA y automatización: `ROADMAP-IA.md`  
 Notas por cliente: `clientes/` (plantilla en `clientes/_plantilla/`)
 
 ## Guión demo (15 min)
